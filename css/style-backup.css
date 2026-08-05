@@ -1,0 +1,347 @@
+/* ===========================
+   GENERAL
+=========================== */
+html{
+
+    scroll-behavior:smooth;
+
+}
+body{
+   margin:0;
+
+    background:#F8F5F0;
+
+    font-family:'Lora', serif;
+
+    color:#4A3B2A;
+
+    overflow-x:hidden;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:260px;
+    height:auto;
+    display:block;
+    margin:0 auto 10px;
+}
+
+.blessing{
+
+    font-family:'Noto Serif Devanagari', serif;
+
+    font-size:34px;
+
+    color:#9C6B2F;
+
+    margin-top:18px;
+
+}
+
+.couple-name{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:72px;
+
+    font-weight:600;
+
+    color:#B68A3A;
+
+    letter-spacing:1px;
+
+    margin:28px 0 15px;
+
+}
+
+.guest-name{
+
+    font-family:'Montserrat', sans-serif;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+    color:#7A7368;
+
+}
+/* ===========================
+   SCROLL INDICATOR
+=========================== */
+
+.scroll-indicator{
+
+    margin-top:80px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.scroll-indicator img{
+
+    width:120px;
+
+    cursor:pointer;
+
+    animation:floatScroll 2.8s ease-in-out infinite;
+
+    transition:transform .3s;
+
+}
+
+.scroll-indicator img{
+
+    width:120px;
+
+    cursor:pointer;
+
+    animation:floatScroll 2.8s ease-in-out infinite;
+
+    transition:transform .3s;
+
+}
+
+}
+.hero-content{
+
+    animation:fadeUp 1.8s ease;
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}/* ===========================
+   TRANSITION SECTION
+=========================== */
+
+.transition-section{
+
+    padding:120px 0 60px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.mountain-circle{
+
+    width:230px;
+
+    margin-bottom:50px;
+
+}
+
+.bell-ornament{
+
+    width:70px;
+
+}
+/* ===========================
+   SECTION DIVIDER
+=========================== */
+
+.section-divider{
+
+    padding:90px 0;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.divider{
+
+    width:900px;
+
+    max-width:90%;
+
+    height:auto;
+
+}
+
+/* ===========================
+   DIVINE BEGINNING
+=========================== */
+
+.divine-beginning{
+
+    padding:120px 20px;
+
+}
+
+.divine-content{
+
+    max-width:850px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.section-subtitle{
+
+    font-family:'Montserrat',sans-serif;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    color:#9C6B2F;
+
+    font-size:14px;
+
+}
+
+.section-title{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:64px;
+
+    color:#B68A3A;
+
+    margin:18px 0 45px;
+
+}
+
+.section-text{
+
+    font-family:'Lora',serif;
+
+    font-size:22px;
+
+    line-height:2;
+
+    color:#5A4B3A;
+
+    margin-bottom:35px;
+
+}
+
+.couple-photo-placeholder{
+
+    width:520px;
+
+    height:340px;
+
+    margin:80px auto 0;
+
+    border:2px dashed #D7C39A;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:#B68A3A;
+
+    font-family:'Montserrat',sans-serif;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+/* ===========================
+   SCROLL FLOAT ANIMATION
+=========================== */
+
+@keyframes floatScroll{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+/* ===========================
+   TRANSITION SECTION
+=========================== */
+
+.transition-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:80px 0 50px;
+
+}
+
+.mountain-circle{
+
+    width:190px;
+
+    margin-bottom:18px;
+
+}
+
+.bell-ornament{
+
+    width:42px;
+
+}

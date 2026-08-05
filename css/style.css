@@ -1,0 +1,1887 @@
+/* ===========================
+   GENERAL
+=========================== */
+html{
+
+    scroll-behavior:smooth;
+
+}
+body{
+   margin:0;
+
+    background:#F8F5F0;
+
+    font-family:'Lora', serif;
+
+    color:#4A3B2A;
+
+    overflow-x:hidden;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:88vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px 20px 20px;
+    background:#F8F5F0;
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:250px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 24px;
+
+}
+
+.blessing{
+
+    font-family:'Noto Serif Devanagari', serif;
+
+    font-size:32px;
+
+    color:#9C6B2F;
+
+    margin:0;
+
+}
+
+.couple-name{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:72px;
+
+    color:#B68A3A;
+
+    margin-bottom:22px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.hero-couple-name{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.groom-name,
+.hero-ampersand,
+.bride-name{
+
+    display:inline-block;
+
+}
+
+.couple-name span{
+
+    display:inline;
+
+}
+
+.ampersand{
+
+    font-size:.75em;
+
+}
+
+.guest-name{
+
+    font-family:'Montserrat', sans-serif;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+    color:#7A7368;
+
+    margin-bottom:60px;
+
+}
+/* ===========================
+   SCROLL INDICATOR
+=========================== */
+
+.scroll-indicator{
+
+    margin-top:0;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.scroll-indicator{
+
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+
+    transform:translateZ(0);
+
+}
+
+.scroll-indicator img{
+
+    width:120px;
+
+    display:block;
+
+    line-height:0;
+
+    cursor:pointer;
+
+    animation:floatScroll 2.8s ease-in-out infinite;
+
+    transition:transform .3s;
+
+}
+.hero-content{
+
+    animation:fadeUp 1.6s ease-out;
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   SECTION DIVIDER
+=========================== */
+
+.section-divider{
+
+    padding:40px 0;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.divider{
+
+    width:900px;
+
+    max-width:90%;
+
+    height:auto;
+
+}
+
+/* ===========================
+   DIVINE BEGINNING
+=========================== */
+
+.divine-beginning{
+
+    padding:120px 20px 110px;
+
+}
+
+.divine-content{
+
+    max-width:850px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.section-subtitle{
+
+    font-family:'Montserrat',sans-serif;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    color:#9C6B2F;
+
+    font-size:14px;
+
+}
+
+.section-title{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:64px;
+
+    color:#B68A3A;
+
+    margin:18px 0 35px;
+
+}
+
+.section-text{
+
+    font-family:'Lora',serif;
+
+    font-size:22px;
+
+    line-height:2;
+
+    color:#5A4B3A;
+
+    margin-bottom:28px;
+
+}
+
+.photo-frame{
+
+    width:680px;
+
+    max-width:90%;
+
+    aspect-ratio:4 / 3;
+
+    margin:80px auto;
+
+    border:1px solid rgba(182,138,58,.35);
+
+    background:rgba(255,255,255,.35);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#B68A3A;
+
+    font-family:'Montserrat',sans-serif;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:14px;
+
+}
+
+.photo-frame img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+/* ===========================
+   SCROLL FLOAT ANIMATION
+=========================== */
+
+@keyframes floatScroll{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   THE INVITATION
+=========================== */
+
+.invitation{
+
+    
+    padding:140px 20px;
+
+    background-image:url("../images/backgrounds/paper-texture.jpg");
+
+    background-repeat:repeat;
+
+    background-size:1200px;
+
+}
+
+.invitation-content{
+
+    max-width:850px;
+
+    margin:auto;
+
+    text-align:center;
+
+    opacity:1;
+
+    transform:none;
+
+    will-change:opacity,transform;
+
+}
+
+.invitation-title{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:72px;
+
+    font-weight:600;
+
+    color:#B68A3A;
+
+    margin:50px 0 30px;
+
+}
+
+.invitation-title span{
+
+    padding:0 14px;
+
+}
+
+.invitation-text{
+
+    max-width:650px;
+
+    margin:22px auto;
+
+    font-size:24px;
+
+    line-height:1.9;
+
+    color:#5A4B3A;
+
+}
+
+.invitation-message{
+
+    margin:45px auto 70px;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:38px;
+
+    color:#9C6B2F;
+
+    font-style:italic;
+
+    max-width:700px;
+
+}
+
+.invitation-dates{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:70px;
+
+    margin-top:40px;
+
+    flex-wrap:wrap;
+
+}
+
+.event-day{
+
+    text-align:center;
+
+}
+
+.weekday{
+
+    font-family:'Montserrat',sans-serif;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:14px;
+
+    color:#9C6B2F;
+
+}
+
+.event-date{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:38px;
+
+    color:#B68A3A;
+
+    margin:10px 0;
+
+}
+
+.event-name{
+
+    font-size:20px;
+
+    color:#5A4B3A;
+
+    line-height:1.8;
+
+}
+
+.date-divider{
+
+    font-size:24px;
+
+    color:#B68A3A;
+
+}
+
+/* ===========================
+   INVITATION PHOTO
+=========================== */
+
+.photo-frame{
+
+    max-width:560px;
+
+    margin:0 auto 42px;
+
+    padding:10px;
+
+    background:#F8F3EA;
+
+    border:1px solid rgba(182,138,58,.14);
+
+    border-radius:22px;
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.05);
+
+}
+
+.invitation-photo{
+
+    display:block;
+
+    width:100%;
+
+    border-radius:12px;
+
+    object-fit:cover;
+
+    transition:
+        transform .6s ease,
+        filter .6s ease;
+
+}
+
+.photo-frame:hover .invitation-photo{
+
+    transform:scale(1.02);
+
+}
+
+/* ===========================
+   CELEBRATIONS
+=========================== */
+
+.celebrations{
+
+    padding:100px 20px;
+
+    background:#F8F5F0;
+
+}
+
+.celebrations-content{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.celebration-bell{
+
+    width:72px;
+
+    display:block;
+
+    margin:28px auto 20px;
+
+    opacity:.92;
+
+}
+
+.celebration-sanskrit{
+
+    font-family:'Noto Serif Devanagari',serif;
+
+    font-size:24px;
+
+    color:#9C6B2F;
+
+    margin:20px auto 70px;
+
+    line-height:1.8;
+
+}
+
+.celebration-icon{
+
+    width:64px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 22px;
+
+    opacity:.90;
+
+}
+
+.celebration-date{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:44px;
+
+    color:#B68A3A;
+
+    margin-bottom:20px;
+
+}
+
+
+.celebration-weekday{
+
+    font-family:'Montserrat',sans-serif;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    font-size:13px;
+
+    color:#A67C2E;
+
+    margin-bottom:8px;
+
+}
+
+.celebration-day{
+
+    margin-bottom:80px;
+
+}
+
+.celebration-row{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:32px;
+
+    flex-wrap:wrap;
+
+}
+
+.celebration-card{
+
+    background:#FFFCF8;
+
+    width:330px;
+
+    margin:18px auto;
+
+    padding:24px 30px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(182,138,58,.18);
+
+    box-shadow:0 6px 18px rgba(0,0,0,.04);
+
+    transition:all .35s ease;
+
+}
+
+.celebration-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 14px 30px rgba(182,138,58,.10);
+
+}
+
+.featured{
+
+    width:460px;
+
+    padding:52px 42px;
+
+    border:2px solid rgba(182,138,58,.28);
+
+    border-radius:18px;
+
+    box-shadow:0 16px 34px rgba(182,138,58,.10);
+
+}
+
+.celebration-divider{
+
+    margin:70px 0;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.celebration-divider img{
+
+    width:250px;
+
+    opacity:.90;
+
+}
+
+.mountain-transition{
+
+    margin:28px 0 34px;
+
+}
+
+.mountain-transition img{
+
+    width:220px;
+    opacity:.35;
+
+}
+
+.celebration-card h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:30px;
+
+    color:#B68A3A;
+
+    margin:0 0 8px;
+
+    font-weight:600;
+
+}
+
+.featured h3{
+
+    font-size:42px;
+
+}
+
+.celebration-card p{
+
+    font-family:'Lora',serif;
+
+    font-size:17px;
+
+    color:#6B5A48;
+
+    line-height:1.7;
+
+    margin:0;
+
+}
+
+.featured p{
+
+    font-size:20px;
+
+}
+
+/* ===========================
+   MINI ORNAMENT
+=========================== */
+
+.celebration-mini-ornament{
+
+    margin:28px 0 30px;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.celebration-mini-ornament img{
+
+    width:90px;
+
+    opacity:.75;
+
+}
+
+/* ==========================
+   OUR ANCESTRAL HOME
+========================== */
+
+.home-section{
+
+    position:relative;
+
+    padding:140px 20px;
+
+    overflow:hidden;
+
+   background:#F8F5F0;
+
+}
+
+/* ==========================
+   WATERCOLOR BACKGROUND
+========================== */
+
+.home-background{
+
+    position:absolute;
+
+    top:-5%;
+
+    left:-5%;
+
+    width:110%;
+
+    height:110%;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    filter:blur(.2px);
+
+    opacity:.12;
+
+    pointer-events:none;
+
+    user-select:none;
+
+    z-index:0;
+
+}
+
+.home-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.home-description{
+
+    max-width:720px;
+
+    margin:60px auto 85px;
+
+    font-family:'Lora',serif;
+
+    font-size:20px;
+
+    line-height:2.15;
+
+    color:#6B5A45;
+
+}
+
+/* ==========================
+   HOME CARD
+========================== */
+
+.home-card{
+
+    max-width:430px;
+
+    margin:0 auto;
+
+    padding:45px 40px;
+
+    background:rgba(252,248,242,.90);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(182,138,58,.18);
+
+    border-radius:22px;
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,.06);
+
+}
+
+.home-card-label{
+
+    font-family:'Montserrat',sans-serif;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    font-size:13px;
+
+    color:#B68A3A;
+
+    margin-bottom:22px;
+
+}
+
+.home-card-title{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:48px;
+
+    font-weight:600;
+
+    color:#B68A3A;
+
+    margin-bottom:20px;
+
+}
+
+.home-card-address{
+
+    font-family:'Lora',serif;
+
+    font-size:19px;
+
+    line-height:2.2;
+
+    color:#6B5A48;
+
+    margin-bottom:36px;
+
+}
+
+.venue-button{
+
+    display:inline-block;
+
+    padding:15px 42px;
+
+    border-radius:40px;
+
+    border:1px solid #C5A15B;
+
+    background:transparent;
+
+    color:#B88635;
+
+    font-family:'Montserrat',sans-serif;
+
+    font-size:14px;
+
+    letter-spacing:1.5px;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+.venue-button:hover{
+
+    background:#C5A15B;
+
+    color:#fff;
+
+    transform:translateY(-2px);
+
+}
+
+/* ==========================
+   OUR ROOTS
+========================== */
+
+.family-section{
+
+    padding:140px 20px;
+
+    background:#F8F5F0;
+
+}
+
+.family-content{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.family-bell{
+
+    width:30px;
+
+    display:block;
+
+    margin:18px auto 22px;
+
+    opacity:.92;
+
+}
+
+.family-intro{
+
+    font-family:'Lora', serif;
+
+    font-size:18px;
+
+    color:#6B5A45;
+
+    max-width:500px;
+
+    margin:0 auto 90px;
+
+    line-height:1.8;
+
+}
+
+/* -----------------------
+   TWO PANELS
+----------------------- */
+
+.family-columns{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:60px;
+
+    flex-wrap:wrap;
+
+    margin-top:18px;
+
+}
+
+.family-panel{
+
+    flex:1;
+
+    max-width:470px;
+
+    min-width:340px;
+
+    padding:30px 55px 50px;
+
+    border-radius:8px;
+
+   background:
+    linear-gradient(
+        rgba(248,245,240,.82),
+        rgba(248,245,240,.82)
+    ),
+        url("../images/backgrounds/paper-texture.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    box-shadow:
+0 20px 45px rgba(120,90,35,.08),
+0 8px 18px rgba(120,90,35,.04);
+
+border:1px solid rgba(190,165,110,.08);
+
+}
+
+.family-panel::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    border-radius:8px;
+
+    pointer-events:none;
+
+    box-shadow:
+        inset 0 0 2px rgba(255,255,255,.7),
+        inset 0 0 10px rgba(170,140,80,.04);
+
+}
+
+.family-panel:first-child{
+
+    border-right:2px solid rgba(193,160,89,.18);
+
+}
+
+.family-panel:last-child{
+
+    border-left:2px solid rgba(193,160,89,.18);
+
+}
+
+/* -----------------------
+   PANEL ORNAMENT
+----------------------- */
+
+.family-ornament img{
+
+    width:145px;
+
+    opacity:.95;
+
+}
+
+.family-ornament img{
+
+    width:110px;
+
+    opacity:.95;
+
+}
+
+/* -----------------------
+   TITLES
+----------------------- */
+
+.family-side{
+
+    font-family:'Noto Serif Devanagari', serif;
+
+    font-size:40px;
+
+    color:#B58A3C;
+
+    margin-bottom:16px;
+
+}
+
+.family-surname{
+
+    font-family:'Montserrat', sans-serif;
+
+    font-size:12px;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    color:#9B7A45;
+
+    margin-bottom:60px;
+
+}
+
+
+/* -----------------------
+   MEMBERS
+----------------------- */
+
+.family-member{
+
+    margin-bottom:46px;
+
+}
+
+.last-member{
+
+    margin-bottom:0;
+
+}
+
+.family-member h4{
+
+    font-family:'Noto Serif Devanagari', serif;
+
+    font-size:19px;
+
+    font-weight:500;
+
+    color:#816846;
+
+    margin-bottom:8px;
+
+}
+
+.family-name{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:26px;
+
+    color:#B58A3C;
+
+    line-height:1.25;
+
+    margin:0;
+
+}
+
+/* -----------------------
+   TWO GRANDMOTHERS
+----------------------- */
+
+.double-name{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:0;
+
+}
+
+.double-name .family-name{
+
+    line-height:1.15;
+
+}
+
+/* -----------------------
+   MOBILE
+----------------------- */
+
+@media(max-width:900px){
+
+.family-columns{
+
+    flex-direction:column;
+
+    gap:40px;
+
+}
+
+.family-panel{
+
+    max-width:100%;
+
+    padding:45px 35px;
+
+}
+
+.family-side{
+
+    font-size:34px;
+
+}
+
+.family-surname{
+
+    font-size:22px;
+
+}
+
+.family-name{
+
+    font-size:25px;
+
+}
+
+.family-intro{
+
+    font-size:17px;
+
+    margin-bottom:60px;
+
+}
+
+}
+
+/* ===========================
+   THE CEREMONY
+=========================== */
+
+.ceremony-section{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:130px 20px;
+
+    background:#F8F5F0;
+
+}
+
+/* ===========================
+   SECTION AIPAN CORNERS
+=========================== */
+
+.section-corner{
+
+    position:absolute;
+
+    pointer-events:none;
+
+    z-index:1;
+
+    opacity:1;
+
+    height:auto;
+
+}
+
+/* ---------- TOP LEFT ---------- */
+
+.top-left-corner{
+
+    width:170px;
+
+    top:45px;
+
+    left:65px;
+
+}
+
+/* ---------- TOP RIGHT ---------- */
+
+.top-right-corner{
+
+    width:145px;
+
+    top:45px;
+
+    right:78px;     /* was 55px */
+
+}
+
+/* ---------- BOTTOM LEFT ---------- */
+
+.bottom-left-corner{
+
+    width:170px;
+
+    bottom:65px;
+
+    left:65px;
+
+}
+
+/* ---------- BOTTOM RIGHT ---------- */
+
+.bottom-right-corner{
+
+    width:135px;
+
+    bottom:65px;
+
+    right:82px;     /* was 55px */
+
+}
+
+.ceremony-content{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    text-align:center;
+    
+    position:relative;
+    
+    z-index:2;
+
+}
+
+.ceremony-ornament{
+
+    margin-bottom:22px;
+
+}
+
+.ceremony-ornament img{
+
+    width:170px;
+
+    opacity:.95;
+
+}
+
+.ceremony-quote{
+
+    max-width:620px;
+
+    margin:24px auto 40px;
+
+    font-family:'Lora',serif;
+
+    font-size:20px;
+
+    font-style:italic;
+
+    color:#7A6244;
+
+    line-height:1.9;
+
+}
+
+/* ===========================
+   DECKLED PAPER
+=========================== */
+
+.ceremony-paper{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:680px;
+
+    margin:50px auto 0;
+
+}
+
+.paper-frame{
+
+    width:100%;
+
+    display:block;
+
+    height:auto;
+
+}
+
+
+.ceremony-paper:hover{
+
+    transform:translateY(-4px);
+
+
+}
+
+.venue-name a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+    display:inline-block;
+
+    transition:
+        color .35s ease,
+        transform .35s ease;
+
+    cursor:pointer;
+
+}
+
+.venue-name a:hover{
+
+    color:#B68A3A;
+
+    transform:translateY(-1px);
+
+}
+
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.ceremony-card{
+
+    position:absolute;
+
+    z-index:3;
+
+    top:49%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:78%;
+
+    text-align:center;
+
+}
+
+/* ===========================
+   CEREMONY SWASTIKA
+=========================== */
+
+.ceremony-swastika{
+
+    width:46px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 14px;
+
+    object-fit:contain;
+
+}
+
+.ceremony-day{
+
+    font-family:'Montserrat',sans-serif;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    font-size:14px;
+
+    color:#A67C2E;
+
+    margin:0 0 22px;
+
+}
+
+
+.ceremony-date{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:58px;
+
+    color:#8E6B2F;
+
+    font-weight:600;
+
+    margin-bottom:42px;
+
+}
+
+.ceremony-date span{
+
+    color:#C79A3B;
+
+    font-size:.65em;
+
+    vertical-align:middle;
+
+    margin:0 8px;
+
+}
+
+.ceremony-divider{
+
+    margin:38px auto;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.ceremony-divider img{
+
+    width:130px;
+
+    opacity:.95;
+
+}
+
+.venue-name{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:44px;
+
+    color:#9C6B2F;
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+}
+
+.venue-road{
+
+    font-family:'Lora',serif;
+
+    font-size:24px;
+
+    color:#6B5A48;
+
+    margin-bottom:14px;
+
+}
+
+.venue-location{
+
+    font-family:'Lora',serif;
+
+    font-size:22px;
+
+    color:#6B5A48;
+
+    line-height:2.2;
+
+}
+
+.venue-location.last{
+
+     margin-bottom:35px;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+    .ceremony-section{
+
+    padding:70px 18px;
+
+}
+
+    .ceremony-ornament img{
+
+        width:130px;
+
+    }
+
+    .ceremony-quote{
+
+        font-size:17px;
+
+        margin-bottom:50px;
+
+    }
+
+    .ceremony-paper{
+
+        padding:75px 30px;
+
+        background-size:100% 100%;
+
+    }
+
+    .ceremony-date{
+
+        font-size:40px;
+
+    }
+
+    .venue-name{
+
+        font-size:30px;
+
+    }
+
+    .venue-road{
+
+        font-size:18px;
+
+    }
+
+    .venue-location{
+
+        font-size:17px;
+
+    }
+
+}
+
+/* ===========================
+   WITH LOVE
+=========================== */
+
+.with-love{
+
+    padding:130px 20px 150px;
+
+    background:#F8F5F0;
+
+    position:relative;
+
+}
+
+.with-love-content{
+
+    max-width:760px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.with-love-text{
+
+    max-width:620px;
+
+    margin:0 auto 34px;
+
+    font-family:'Lora',serif;
+
+    font-size:22px;
+
+    line-height:2;
+
+    color:#6B5A48;
+
+    font-style:italic;
+
+}
+
+.sasneha-line{
+
+    display:block;
+
+    width:90px;
+
+    height:2px;
+
+    margin:16px auto 0;
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        #C5A15B 20%,
+        #C5A15B 80%,
+        transparent
+    );
+
+}
+
+/* ===========================
+   SIGNATURE DIVIDER
+=========================== */
+
+.signature-divider{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:55px auto;
+
+}
+
+.signature-divider img{
+
+    width:165px;
+
+    opacity:.92;
+
+}
+
+.signature-divider span{
+
+    width:140px;
+
+    height:1.5px;
+
+    background:rgba(182,138,58,.55);
+
+}
+
+.closing-signature{
+
+    margin-top:0;
+
+}
+
+.love-text{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-style:italic;
+
+    font-size:34px;
+
+    color:#7A6244;
+
+    margin-bottom:18px;
+
+}
+
+.closing-signature h3{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:62px;
+
+    font-weight:500;
+
+    color:#B68A3A;
+
+    margin:0;
+
+    line-height:1.02;
+
+}
+
+.closing-signature h3 span{
+
+    display:block;
+
+    font-size:36px;
+
+    margin:2px 0;
+
+}
+
+.closing-logo{
+
+    width:70px;
+
+    display:block;
+
+    margin:28px auto 18px;
+
+    opacity:1;
+
+}
+
+.closing-blessing{
+
+    font-family:'Noto Serif Devanagari',serif;
+
+    font-size:28px;
+
+    color:#B68A3A;
+
+    letter-spacing:1px;
+
+    margin-top:2px;
+
+    margin-bottom:0;
+
+    opacity:.95;
+
+    font-weight:500;
+
+}
+
+.closing-ornament{
+
+    width:140px;
+
+    display:block;
+
+    margin:20px auto 0;
+
+    opacity:.75;
+
+}
+
+.closing-divider{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:18px;
+
+    margin:30px auto 0;
+
+    color:#C5A15B;
+
+    font-size:18px;
+
+}
+
+.closing-divider span{
+
+    width:120px;
+
+    height:1px;
+
+    background:rgba(182,138,58,.45);
+
+}
+
+.with-love .section-label{
+
+    margin-bottom:8px;
+
+
+
+
+}
+
+
+

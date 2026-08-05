@@ -1,0 +1,474 @@
+/* ==========================================
+   MOBILE RESPONSIVE STYLES
+   Wedding Website
+========================================== */
+
+@media (max-width:768px){
+
+.hero{
+    min-height:100vh;
+    padding:120px 24px;
+}
+.hero-content{width:100%;}
+.logo{width:115px;margin-bottom:28px;}
+.blessing{font-size:28px;margin-bottom:34px;}
+.hero-couple-name{display:flex;flex-direction:column;align-items:center;gap:12px;}
+.hero-ampersand{font-size:.9em;line-height:1;margin:6px 0;}
+.guest-name{font-size:16px;margin-bottom:44px;}
+
+.divine-beginning{padding:80px 24px;}
+.divine-content{max-width:100%;}
+.section-subtitle{font-size:12px;letter-spacing:3px;}
+.section-title{font-size:48px;line-height:1.1;margin:14px 0 26px;}
+.section-text{
+
+    max-width:295px;
+
+    margin:0 auto 22px;
+
+    font-size:19px;
+
+    line-height:1.9;
+
+}
+
+.invitation{padding:90px 20px;background-size:650px;}
+.invitation-content{max-width:100%;}
+.photo-frame{width:100%;max-width:100%;margin:0 auto 32px;padding:8px;box-sizing:border-box;}
+.invitation-photo{width:100%;display:block;}
+.invitation-title{font-size:46px;line-height:1.15;margin:28px 0 18px;}
+.invitation-title span{display:block;padding:4px 0;}
+.invitation-text{max-width:100%;font-size:19px;line-height:1.8;}
+.invitation-message{font-size:28px;line-height:1.4;margin:30px auto 42px;}
+.invitation-dates{flex-direction:column;gap:26px;}
+.date-divider{display:block;font-size:18px;opacity:.75;margin:4px 0;}
+.event-date{font-size:30px;}
+.event-name{font-size:18px;line-height:1.6;}
+
+.celebrations{padding:90px 20px;}
+.celebrations-content{max-width:100%;}
+.celebration-sanskrit{font-size:20px;margin:18px auto 45px;}
+.celebration-day{margin-bottom:60px;}
+.celebration-weekday{font-size:12px;letter-spacing:3px;}
+.celebration-date{font-size:36px;margin-bottom:14px;}
+.celebration-row{gap:18px;}
+.celebration-card,.featured{width:100%;max-width:100%;box-sizing:border-box;}
+.celebration-card{padding:22px 20px;border-radius:16px;}
+.featured{padding:34px 24px;}
+.celebration-card h3{font-size:28px;}
+.featured h3{font-size:34px;}
+.celebration-card p{font-size:17px;}
+.featured p{font-size:18px;}
+
+.home-section{padding:90px 20px;}
+
+.home-background{
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    object-position:center top;
+
+    opacity:.14;
+
+}
+.home-description{font-size:18px;line-height:1.9;margin:40px auto 70px;}
+.home-card{
+
+    max-width:100%;
+
+    padding:28px 24px;
+
+    box-sizing:border-box;
+
+    border-radius:20px;
+
+}
+
+.venue-button{
+
+    display:inline-block;
+
+    padding:15px 42px;
+
+    border-radius:40px;
+
+    border:1px solid #C5A15B;
+
+    background:transparent;
+
+    color:#B88635;
+
+    font-family:'Montserrat',sans-serif;
+
+    font-size:14px;
+
+    letter-spacing:1.5px;
+
+}
+
+.venue-button{
+
+    padding:13px 32px;
+
+    font-size:13px;
+
+    letter-spacing:1.2px;
+
+    border-radius:32px;
+
+}
+
+.home-card-label{
+
+    margin-bottom:16px;
+
+}
+
+.home-card-title{
+
+    margin-bottom:14px;
+
+}
+
+.home-card-address{
+
+    line-height:2;
+
+    margin-bottom:28px;
+
+
+}
+
+.home-card{
+
+    box-shadow:
+        0 10px 24px rgba(0,0,0,.05),
+        0 2px 8px rgba(0,0,0,.03);
+
+}
+
+.family-section{padding:90px 20px;}
+.family-columns{gap:28px;}
+.family-panel{width:100%;max-width:100%;min-width:0;padding:32px 24px;box-sizing:border-box;}
+
+.ceremony-section{
+
+    padding:145px 20px 65px;
+
+}
+.section-corner{opacity:.55;}
+.top-left-corner{
+    width:87px;
+    top:36px;
+    left:10px;
+}
+
+.top-right-corner{
+
+    width:75px;
+
+    right:34px;
+
+    top:36px;
+
+}
+
+.bottom-left-corner,
+.bottom-right-corner{
+
+    display:none;
+
+}
+.ceremony-ornament img{width:130px;}
+.ceremony-quote{
+
+    max-width:300px;
+
+    font-size:15px;
+
+    line-height:1.75;
+
+    color:#7A6244;
+
+    margin:14px auto 28px;
+
+}
+.ceremony-paper{
+
+    width:94%;
+
+    max-width:395px;
+
+    margin:-10px auto 0;
+
+    transform:translateX(-6px);
+
+}
+.paper-frame{
+
+    width:100%;
+    display:block;
+    height:auto;
+
+    filter:
+        drop-shadow(0 12px 24px rgba(0,0,0,.08))
+        drop-shadow(0 2px 6px rgba(0,0,0,.04));
+
+}
+.ceremony-card{
+
+    width:78%;
+
+    left:50%;
+
+    top:51%;
+
+    transform:translate(-50%,-50%);
+
+}
+.ceremony-content{
+
+    padding:0 8px;
+
+}
+
+.ceremony-subtitle{
+
+    font-size:11px;
+
+    letter-spacing:4px;
+
+    margin-bottom:10px;
+
+}
+
+.ceremony-title{
+
+    font-size:42px;
+
+    line-height:1.08;
+
+    margin:8px 0 12px;
+
+}
+.ceremony-date{
+
+    font-size:34px;
+
+    line-height:1.15;
+
+    letter-spacing:.3px;
+
+    white-space:nowrap;
+
+}
+
+.ceremony-date span{
+
+    margin:0 4px;
+
+}
+
+.ceremony-paper:hover{
+
+    transform:translateY(-2px);
+
+    transition:transform .35s ease;
+
+}
+.venue-name{
+
+    font-size:31px;
+
+    font-weight:600;
+
+    line-height:1.1;
+
+    margin-bottom:16px;
+
+}
+
+.venue-road{
+
+    font-size:16px;
+
+    margin-bottom:8px;
+
+    opacity:.88;
+
+}
+
+.venue-location{
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    opacity:.82;
+
+}
+
+.with-love{
+
+    padding:120px 24px 120px;
+
+}
+
+.with-love-hindi{
+
+    font-family:'Noto Serif Devanagari', serif;
+
+    font-size:46px;
+
+    font-weight:600;
+
+    color:#B68A3A;
+
+    line-height:1;
+
+    margin-bottom:22px;
+
+}
+
+.with-love-divider{
+
+    width:70px;
+
+    margin:0 auto 34px;
+
+    opacity:.95;
+
+}
+.with-love-text{
+
+    max-width:320px;
+
+    margin:0 auto;
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    font-style:italic;
+
+    color:#6E5A45;
+
+}
+
+
+.with-love-text:first-of-type{
+
+    max-width:320px;
+
+    margin:0 auto 42px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+}
+
+.with-love-text:last-of-type{
+
+    max-width:290px;
+
+    margin:0 auto;
+
+    font-size:17px;
+
+    line-height:1.9;
+
+    opacity:.82;
+
+}
+
+.section-label{
+
+    font-size:12px;
+
+    letter-spacing:4px;
+
+    margin-bottom:14px;
+
+}
+
+.signature-divider{
+
+    margin:48px auto 34px;
+
+}
+
+.signature-divider img{
+
+    width:135px;
+
+}
+
+.love-text{
+
+    font-size:22px;
+
+    margin-bottom:18px;
+
+    opacity:.72;
+
+}
+
+.closing-signature h3{
+
+    font-size:48px;
+
+    line-height:1.02;
+
+}
+
+.closing-signature h3 span{
+
+    font-size:26px;
+
+    margin:2px 0;
+
+}
+
+.closing-logo{
+
+    width:60px;
+
+    margin:30px auto 20px;
+
+}
+
+.closing-blessing{
+
+    font-size:22px;
+
+    margin-top:6px;
+
+    margin-bottom:22px;
+
+    letter-spacing:.5px;
+
+}
+
+.closing-divider{
+
+    margin-top:24px;
+
+    opacity:.75;
+
+}
+
+.closing-divider span{
+
+    width:55px;
+
+}
+}
